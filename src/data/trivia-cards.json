@@ -1,0 +1,75 @@
+{
+  "1": {
+    "question": "The Lord of the Rings is and always will be, a wonderful book. One of the greatest ever written. Any films will only be an interpretation of the book.",
+    "a": ["Walther Matthau", false],
+    "b": ["Peter Jackson", true],
+    "c": ["Bilbo Baggins", false],
+    "d": ["Jack Klugman", false]
+  },
+  "2": {
+    "question": "After Whoopi Goldberg's oscar was stolen in 2002, where was it eventually found?",
+    "a": ["On display in a private home in Calabasas", false],
+    "b": ["For sale at a collectors home in Las Vegas.", false],
+    "c": ["At a museum in Estonia", false],
+    "d": ["In an airport trashcan in Ontario", true]
+  },
+  "3": {
+    "question": "Who created Univeral Studio's Frankenstein?",
+    "a": ["Boris Karloff", false],
+    "b": ["Mary Shelly", false],
+    "c": ["Dr. Frankenstein", false],
+    "d": ["Depends on how you look at it.", true]
+  },
+  "4": {
+    "question": "Which film captivated Peter Jackson's imagination as kid.",
+    "a": ["King Kong", true],
+    "b": ["Kramer vs. Kramer", false],
+    "c": ["The Karate Kid", false],
+    "d": ["Kotch", false]
+  },
+  "5": {
+    "question": "What type of alcohol does Quint want as payment for hunting Jaws?",
+    "a": ["Fosters Beer", false],
+    "b": ["Apricot Brandy", true],
+    "c": ["Popov Vodka", false],
+    "d": ["Banana Schnaaps", false]
+  },
+  "6": {
+    "question": "Why do so many people visit the grave of Dennis Hopper?",
+    "a": ["The cemetary is not on a map", true],
+    "b": ["He was buried at sea", false],
+    "c": ["Public outcry over his career choices", false],
+    "d": ["It is in the backyard of Jack Nicholson", false]
+  },
+  "7": {
+    "question": "In 1975 what addictions did Sir Anthony Hopkins conquer?",
+    "a": ["Cocaine", false],
+    "b": ["Alcohol", true],
+    "c": ["Gambling", false],
+    "d": ["Prescription Pills", false]
+  },
+  "8": {
+    "question": "Which of Peter Jackson's parents died during the production of Lord of the Rings?",
+    "a": ["His Mother", false],
+    "b": ["His Father", false],
+    "c": ["Neither", false],
+    "d": ["Both", true]
+  },
+  "9": {
+    "question": "Which Little Rascals Character met an untimely end?",
+    "a": ["Darla died from an overdose in Hal Roach's bathroom.", false],
+    "b": [
+      "Buckwheat drove through the front of a 7-11 while intoxicated",
+      false
+    ],
+    "c": ["Alfalfa was shot after hitting a man with glass domed clock.", true],
+    "d": ["Spanky died of accidental autoerotic asphyxiation.", false]
+  },
+  "10": {
+    "question": "What Hollywood Luminary was Jonathan Norman convicted of stalking and threatening to rape.",
+    "a": ["Jim Carrey", false],
+    "b": ["Marlon Brando", false],
+    "c": ["Steven Spielberg", true],
+    "d": ["Meryl Streep", false]
+  }
+}
