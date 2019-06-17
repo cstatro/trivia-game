@@ -28,18 +28,15 @@ describe("Start Quiz Function", function() {
   });
 });
 
-describe("Advance Quiz Function", function() {
-  it("Pushes Answer to array", function() {
-    let answer = ["hold", true];
-    let answers = [true, false, true];
-    quiz.advanceQuiz(answer, answers);
-    expect(answers).equal([true, false, true, true]);
+describe("Finish Quiz Section", function() {
+  it("Correctly calculates percentage", function() {
+    let answers = [true, true, false, false];
+    let result = quiz.finishQuiz(answers);
+    expect(result).equal("50%");
   });
-  it("Expect showScore to be called if array length is up to 5", function() {
-    let answer = ["hold", true];
-    let answers = [true, false, true, true];
-    let result = quiz.advanceQuiz(answer, answers);
-    expect(answers).equal([true, false, true, true, true]);
-    expect(result).equal(showScore(answers));
+  it("Correctly calculates percentage", function() {
+    let answers = [true, true, true, false, false];
+    let result = quiz.finishQuiz(answers);
+    expect(result).equal("60%");
   });
 });

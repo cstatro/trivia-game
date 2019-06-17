@@ -5,7 +5,7 @@ function startQuiz(data) {
   let uniqueNumbers = [];
   while (uniqueNumbers.length < 5) {
     let num = Math.round(Math.random() * 9);
-    collect.push(num);
+    collect.push(num + 1);
     uniqueNumbers = [...new Set(collect)];
   }
   let returnArray = [];
@@ -21,6 +21,12 @@ function startQuiz(data) {
   }
 }
 
+function finishQuiz(arr) {
+  let num = (arr.filter(val => val === true).length / arr.length) * 100;
+  return `${num}%`;
+}
+
 module.exports = {
-  startQuiz: startQuiz
+  startQuiz: startQuiz,
+  finishQuiz: finishQuiz
 };
